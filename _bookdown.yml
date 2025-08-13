@@ -1,0 +1,6 @@
+output_dir: "book"
+chapter_name: "Chapter "
+language:
+  label:
+    fig: 'Figure '
+    tab: "Table "

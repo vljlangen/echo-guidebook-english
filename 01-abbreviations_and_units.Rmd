@@ -1,0 +1,74 @@
+# Abbreviations and Units
+
+## Abbreviations and Units
+The following table \@ref(tab:abbreviations) shows the abbreviations used in echocardiography along with the units of measurement that are most typically used in the Turku area, based on my experience. At the end of the list, there are also some echocardiographic findings that may be described in reports using abbreviations.
+
+Below the table, there is a broader [discussion on the topic](#abbreviations_additional_info).
+
+**The purpose is not to memorize anything from this table; you learn the abbreviations when learning each structure in the later chapters of this guide. However, the table can serve as an aid when preparing your first reports.**
+
+<br/>
+
+
+
+```{r abbreviations, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+
+tibble::tribble(
+                                  ~`Structure/Finding described`,                 ~Abbreviation, ~Unit,                                                              ~Notes,
+                                               "Left ventricle",                     "LV",          "mm",                                                "Unit not stated",
+                            "Left ventricular ejection fraction",                   "LVEF",           "%",        "E.g. \"EF 50 %\" is sufficient (cf. RVEF not in clinical use)",
+                   "Interventricular septum",                    "IVS",          "mm",                "Can record:\"Walls 10/10\" (first stated is septum)",
+                                                  "Posterior wall",                     "PW",          "mm",                                                               "Cf. above.",
+                              "Aorta (usually: aortic root)",                     "Ao",          "mm",                                                "Unit not stated",
+                                              "Left atrium",                     "LA",          "mm",                                                "Unit not stated",
+                           "Mitral inflow E-wave",                      "E",         "m/s",                                                "Unit not stated",
+                           "Mitral inflow A-wave",                      "A",         "m/s",                                                "Unit not stated",
+                          "Mitral annular E'-wave",      "E' (or e'), lat.",         "m/s",       "1) Unit not stated; 2) most commonly measured laterally",
+                                          "E to E' ratio",   "E/E' (or E/e') lat.",           "-",                                        "Most commonly measured laterally",
+                        "Gradient measured in valve stenosis",                      "-",        "mmHg",         "In expression \"10/5 mmHg\" the latter number describes mean gradient",
+         "Aortic valve area",                    "AVA",         "cm2",                                                                         " ",
+                          "PISA radius (in regurgitation)",                   "PISA",          "cm",                                                "Unit not stated",
+                              "Regurgitant vena contracta",                     "VC",          "cm",                                                "Unit not stated",
+  "Effective regurgitant orifice area",                   "EROA",         "cm2",                                                                         " ",
+          "Tricuspid annular systolic excursion",                  "TAPSE",          "mm",                                                "Unit not stated",
+                            "Right ventricular basal dimension",                   "RVD1",          "mm",                                                "Unit not stated",
+                                  "Right ventricular mid dimension",                   "RVD2",          "mm",                                                "Unit not stated",
+             "Gradient measured from tricuspid regurgitation",       "RV/RA-gradient",        "mmHg",                                                                         "Also good:\"Tricuspid gradient 25 mmHg\"",
+                                              "Right atrium",                     "RA",          "mm",                                                "Unit not stated",
+                                            "Inferior vena cava",                    "IVC",          "mm", "One way to express:\"20/10\" (latter refers to value during inspiration)",
+                                 "Systolic pulmonary artery pressure",                   "sPAP",        "mmHg",                                                                         " ",
+                                                           " ",                       " ",            " ",                                                                         " ",
+                                                          "**Valve findings:**",                      " ",           " ",                                                                        " ",
+                                                           " ",                       " ",            " ",                                                                         " ",
+                                        "Mitral regurgitation",                     "MR",            " ",                                                                         " ",
+                                     "Mitral stenosis",                     "MS",            " ",                                                                         " ",
+                                       "Aortic stenosis",                     "AS",            " ",                                                                         " ",
+                                          "Aortic regurgitation",                     "AR",            " ",                       "In some devices:\"AI\" (*aortic insufficiency*)"
+  ) -> abbreviations_data
+
+
+knitr::kable((abbreviations_data), 
+caption = 'Most common abbreviations appearing in echocardiographic reports.')
+
+
+
+
+
+```
+
+<br>
+
+## Abbreviations: Additional Information {#abbreviations_additional_info}
+
+Echocardiographic reports are full of letter abbreviations that are derived directly from the names of the structures being described. These abbreviations must be known in order to be able to dictate the echocardiographic studies you perform and interpret reports prepared by others. Additionally, projections have their own corresponding logical letter abbreviations that are worth learning. There are about twenty abbreviations in total, and they are all logical and easy.
+
+Those practicing echocardiography also often ask what unit of measurement to use in each measurement. My experience is that the use of units is not entirely consistent - for example, certain velocities are described in m/s units and others in cm/s units.
+
+Certain findings may also be described using abbreviations. This may not be the best solution for readability, but echocardiographic reports are probably generally difficult to read if you don't perform echocardiography yourself. I wouldn't rule out using the abbreviations for findings presented in table \@ref(tab:abbreviations) if there's a small summary at the end of the report in human-readable language - I strongly recommend such a summary in general.
+
+<br/> <br/> <br/>
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://ukg-opas.netlify.app/">Echo Guidebook</a> © 2022 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/ville-langen/">Ville Langén</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>

@@ -1,0 +1,52 @@
+---
+title: "Echo Guidebook"
+author: "Ville Langén"
+documentclass: book
+output:
+  bookdown::gitbook:
+    config:
+      toc:
+        scroll_highlight: yes
+        before: |
+          <li><a href="https://ukg-opas.netlify.app/"><i class="fa fa-language fa-fw"></i> Finnish version<span></span></a></li>
+        after: |
+          <li><a href="https://bookdown.org/">Proudly published with bookdown</a></li>
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+---
+
+
+# Foreword
+
+**Before moving on:** *This book is also [available in Finnish](https://ukg-opas.netlify.app/). This English version has been ported from the Finnish original. Some images currently contain Finnish text but are still usable for learning purposes. These will be translated in future updates.*
+
+<br/>
+
+This guide introduces the basics of echocardiography, such as how to obtain different projections (imaging views) of the heart and how to perform various measurements with an ultrasound device. The guide is primarily aimed at beginners - for example, physicians who are interested in learning to perform echocardiography themselves or interpreting echocardiographic measurements.
+
+The measurement functions are presented in this guide using the buttons and menus of the Philips CX50 device. However, the principles are the same in all echocardiography devices, so the measurements presented are largely universal. When you learn to use one echocardiography device, you know the basic functions in all different devices, regardless of the device manufacturer.
+
+There are two major manufacturers: Philips and GE. Often, all echocardiography devices in a hospital or at least in a result area are manufactured by one of these companies. Both companies' devices have their own strengths and their own advocates.
+
+There are regional differences in performing echocardiography even within Finland, which I have tried to pay some attention to in this guide. Even the abbreviation "UKG", which is used to refer concisely to cardiac echocardiography in the Turku area, is not used in all parts of Finland. (When going further north, cardiology colleagues reportedly use the term "ekko".)
+
+The content of this guide is based on the undersigned's experiences from ward and outpatient clinic work. I offer in this guide my own views on how the different areas of echocardiography are easiest to understand and learn. There are separate source references to scientific publications in some sections.
+
+The guide does not need to be read chronologically - read what you need and ignore the rest.
+
+**Please note that this guide is not a treatment recommendation, and the reader uses the guide to support their learning entirely at their own responsibility.**
+
+<br/>
+<br/>
+
+
+There is plenty of additional content for learning echocardiography on the internet. Here are some links:
+
+[The Echo Lady: parasternal long axis view](https://www.youtube.com/watch?v=8uLaxH8mSew) <br/>
+[EchoVTorials: parasternal long axis view](https://www.youtube.com/watch?v=aXworpaecjM) <br/>
+[Echopedia: reference ranges for left ventricular dimensions](https://www.echopedia.org/index.php?title=Left_Ventricular_Dimensions) <br/>
+[Echopedia: diastology](https://www.echopedia.org/index.php?title=Diastolic_Function)
+
+
+<br/>
+<br/>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://ukg-opas.netlify.app/">Echo Guidebook</a> © 2022 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/ville-langen/">Ville Langén</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
