@@ -1,0 +1,65 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rprofile
+.Renviron
+
+# RStudio
+.Rproj.user/
+*.Rproj
+
+# R Markdown
+*.Rmd.bak
+*.Rmd~
+
+# Bookdown
+_bookdown_files/
+*.html
+*.pdf
+*.epub
+*.mobi
+*.azw3
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Build artifacts
+build/
+dist/
